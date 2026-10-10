@@ -35,13 +35,22 @@
 
 确保安装后命令行可以直接运行 `litellm`。
 
+
+## 冒烟自检
+
+```bash
+bash scripts/smoke.sh
+```
+
+复制 `litellm-gateway/.env.example` → `.env` 填 Key；`master_key` 生产前务必改掉 `change-me-before-production`。
+
 ### 3. 配置 API Key（.env）
 
 在 `litellm-gateway` 目录下需要一个 `.env` 文件来管理 OpenAI Key，示例：
 
 ```bash
 OPENAI_KEY_1=sk-xxxx
-OPENAI_KEY_2=sk-xxxx
+OPENAI_KEY_2=x
 ```
 
 - 你可以只填一把 Key（只用 `OPENAI_KEY_1`）

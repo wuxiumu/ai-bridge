@@ -1,0 +1,12 @@
+.idea/
+.vscode/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+**/litellm.pid
+litellm-gateway/logs/
+__pycache__/
+.venv/
+venv/

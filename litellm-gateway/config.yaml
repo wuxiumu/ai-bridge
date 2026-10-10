@@ -15,5 +15,5 @@ model_list:
       api_key: os.environ/OPENAI_KEY_1
 
 general_settings:
-  master_key: "litellm-master-key"
+  master_key: "change-me-before-production"
   completion_model: gpt-4o
