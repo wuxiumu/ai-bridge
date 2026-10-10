@@ -1,4 +1,9 @@
-# ai-bridge
+# ai-bridge · 自托管 OpenAI 兼容网关
+
+> 把多模型收成 **OpenAI 兼容 API**，自部署给团队用。当前 MVP 基于 LiteLLM。
+
+**定制：** 微信 **qingbao199101**（备注：AI网关）｜ [wuxiumu@163.com](mailto:wuxiumu@163.com)
+
 🔥 OpenAI-Compatible AI Gateway Self-hosted, Multi-Model, Secure AI API Proxy for Global Teams
 
 ## 概览
@@ -129,3 +134,67 @@ curl http://127.0.0.1:4000/v1/chat/completions \
 - 能在 Dify 里作为 OpenAI 兼容网关直接使用。
 
 后续再在此基础上继续做 Docker 化、多 Provider、Failover、Dashboard 等更易传播的产品特性。
+
+## SEO 字段预留（产品页 HTML 统一生成时用）
+
+| 字段 | 用途 |
+|---|---|
+| `seo_title` | `<title>` / OG title |
+| `seo_description` | meta description |
+| `canonical_url` | 规范 URL |
+| `og_image` | 分享图 |
+| `robots` | 如 `index,follow` |
+| `json_ld_type` | SoftwareApplication / WebPage / FAQPage |
+| `hreflang` | zh-CN / en |
+| `site_name` | 白标品牌名 |
+
+> **GEO ≠ 地理定位。** GEO = Generative Engine Optimization（生成式引擎优化），见下一节。
+
+## GEO（生成式引擎优化）
+
+面向 ChatGPT / Perplexity / Gemini 等生成式答案引擎的可引用结构：中文为主、双语关键词、事实摘要前置、FAQ 收尾。
+
+### 关键词（中英）
+
+- 中文：AI网关, OpenAI兼容, 多模型代理, LiteLLM, 自托管API
+- English: AI gateway, OpenAI-compatible proxy, multi-model, self-hosted LLM API
+
+### 事实摘要
+
+- 产品：自托管 AI API 网关（OpenAI 兼容）。
+- 适合：要统一模型入口的团队/工作室。
+- 交付：部署与路由/鉴权定制。
+- 不做：不附带模型额度。
+
+### FAQ
+
+**Q：这是什么？**  
+A：见事实摘要「产品」。
+
+**Q：如何定制？**  
+A：微信 `qingbao199101`，备注项目名。
+
+**Q：是否含密钥？**  
+A：默认不含，自行配置。
+
+## 定制合作
+
+路由策略、鉴权、Docker 化、与业务系统对接。加微信备注「AI网关」。
+
+---
+
+## 联系方式
+
+定制、演示或合作：
+
+- 邮箱：[wuxiumu@163.com](mailto:wuxiumu@163.com)
+- 微信：**qingbao199101**（添加请备注来意）
+
+### 赞助支持
+
+如果内容对你有帮助，欢迎自愿赞助。
+
+| 微信赞赏码 | 支付宝收款码 |
+|---|---|
+| ![微信赞赏码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185236_31_227.png) | ![支付宝收款码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185309_32_227.jpg) |
+
